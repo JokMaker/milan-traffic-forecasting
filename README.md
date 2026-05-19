@@ -31,26 +31,25 @@ The full dataset (~19GB) is available from Harvard Dataverse:
 
 ## Project Structure
 
-
-
-milan_traffic_project/
+```
+milan-traffic-forecasting/
 ├── milan_traffic_analysis.ipynb   ← main notebook (all tasks)
 ├── requirements.txt               ← dependencies
 ├── README.md                      ← this file
 ├── data/
-│   ├── sample/                    ← minimum data for predictions
-│   │   ├── square_5161_full.parquet
-│   │   ├── square_4159_full.parquet
-│   │   └── square_4556_full.parquet
-│   └── milano-grid.geojson        ← Milan grid tessellation
+│   └── sample/                    ← minimum data for predictions
+│       ├── square_5161_full.parquet
+│       ├── square_4159_full.parquet
+│       └── square_4556_full.parquet
 ├── outputs/                       ← generated plots and tables
 └── models/                        ← saved model weights
-├── lstm_square_5161.keras
-├── lstm_square_4159.keras
-├── lstm_square_4556.keras
-├── gru_square_5161.keras
-├── gru_square_4159.keras
-└── gru_square_4556.keras
+    ├── lstm_square_5161.keras
+    ├── lstm_square_4159.keras
+    ├── lstm_square_4556.keras
+    ├── gru_square_5161.keras
+    ├── gru_square_4159.keras
+    └── gru_square_4556.keras
+```
 
 ---
 
