@@ -1,0 +1,13 @@
+# Raw data — too large for GitHub
+data/raw/
+data/parquet_files/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
